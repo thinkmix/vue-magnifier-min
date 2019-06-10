@@ -1,0 +1,59 @@
+{
+  "name": "vue-magnifier-min",
+  "title": "vue-magnifier-min",
+  "version": "0.1.0",
+  "private": false,
+  "author": "thinkmix",
+  "license": "MIT",
+  "description": "A Vue image magnifier",
+  "main": "dist/vue-magnifier-min.min.js",
+  "keywords": [
+    "magnifier",
+    "vue",
+    "img",
+    "rotate",
+    "vue.js",
+    "component",
+    "components"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thinkmix/vue-magnifier-min"
+  },
+  "bugs": {
+    "url": "https://github.com/thinkmix/vue-magnifier-min/issues"
+  },
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --config webpack.config.js ",
+    "build:prod": "cross-env NODE_ENV=production webpack --config webpack.config.js",
+    "build:demo": "cross-env NODE_ENV=demo webpack --config webpack.config.js"
+  },
+  "dependencies": {
+    "vue": "^2.5.17"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.19",
+    "compression-webpack-plugin": "^1.1.11",
+    "cross-env": "^5.1.5",
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.9.0",
+    "postcss-loader": "^2.1.5",
+    "optimize-css-assets-webpack-plugin": "^4.0.1",
+    "sass-loader": "^7.0.1",
+    "uglifyjs-webpack-plugin": "^1.2.5",
+    "url-loader": "^1.0.1",
+    "vue-loader": "^15.7.0",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.4",
+    "webpack-merge": "^4.1.2"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
