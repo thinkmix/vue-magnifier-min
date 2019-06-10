@@ -5752,6 +5752,13 @@ vue-loader@^15.7.0:
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
 
+vue-magnifier-min@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/vue-magnifier-min/-/vue-magnifier-min-0.1.0.tgz#89d72e3529ab74164a6b928ab296b9d18f3a4e0c"
+  integrity sha512-hvZaIZ/ZzW//GKHrfhPkhONkTL6awtC+OO66dFhCne6PMpqnuIb5sbShbH52DII+umxTf/e/J14E4vVb/rSK6Q==
+  dependencies:
+    vue "^2.5.17"
+
 vue-style-loader@^4.1.0, vue-style-loader@^4.1.2:
   version "4.1.2"
   resolved "https://registry.yarnpkg.com/vue-style-loader/-/vue-style-loader-4.1.2.tgz#dedf349806f25ceb4e64f3ad7c0a44fba735fcf8"

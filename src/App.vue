@@ -7,7 +7,8 @@
 </template>
 
 <script>
-import ImgMagnifier from './components/vue-magnifier-min.vue'
+import { VueMagnifierMin } from './index'
+// import { VueMagnifierMin } from 'vue-magnifier-min';
 
 export default {
   name: 'app',
@@ -25,7 +26,7 @@ export default {
     }
   },
   components: {
-    'vue-magnifier-min': ImgMagnifier
+    'vue-magnifier-min': VueMagnifierMin
   },
   mounted(){
     // imgList: [{

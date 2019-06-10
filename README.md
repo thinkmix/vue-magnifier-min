@@ -14,26 +14,38 @@ yarn add -D vue-magnifier-min
 
 ## Import
 ```javascript
-import ImgMagnifier from 'vue-magnifier-min'
+import { VueMagnifierMin } from 'vue-magnifier-min';
 
 export default {
   ...
   components: {
-    ImgMagnifier,
+    VueMagnifierMin,
   },
   ...
 }
+```
+## Global
+main.js
+```javascript
+import Vue from 'vue';
+import VueMagnifierMin  from 'vue-magnifier-min';
+
+Vue.use(VueMagnifierMin);
+```
+component
+```javascript
+<vue-magnifier-min :configs="configs" :img="img" />
 ```
 
 ## Usage
 ```html
 <template>
   <div id="app">
-    <ImgMagnifier :configs="configs" :img="img" />
+    <vue-magnifier-min :configs="configs" :img="img" />
   </div>
 </template>
 <script>
-import ImgMagnifier from 'vue-magnifier-min'
+import { VueMagnifierMin } from 'vue-magnifier-min';
 
 export default {
   name: 'app',
@@ -51,7 +63,7 @@ export default {
     }
   },
   components: {
-    ImgMagnifier
+    'vue-magnifier-min': VueMagnifierMin
   },
   mounted(){
 
